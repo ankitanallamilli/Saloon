@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <h1>Book Appointment</h1>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/services">Services</a>
+        <a href="/booking">Booking</a>
+        <a href="/contact">Contact</a>
+    </nav>
+
+    <form action="/booking" method="post">
+
+        Name: <input type="text" name="name"><br><br>
+
+        Phone: <input type="text" name="phone"><br><br>
+
+        Service:
+        <select name="service">
+            <option>Hair Cut</option>
+            <option>Facial</option>
+            <option>Makeup</option>
+            <option>Spa</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Book Now</button>
+
+    </form>
+
+</body>
+</html>

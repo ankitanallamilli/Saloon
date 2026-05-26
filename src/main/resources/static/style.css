@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #111;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid gold;
+}
+
+nav a {
+    color: gold;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1560066984-138dadb4c035') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    color: gold;
+}
+
+.hero p {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.btn {
+    background: gold;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: white;
+}
+
+/* Service cards */
+.services {
+    text-align: center;
+    padding: 50px;
+}
+
+.services h2 {
+    color: gold;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #222;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px gold;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: gold;
+    padding: 15px;
+}
+
+.card p {
+    padding: 0 15px 20px;
+}
+
+/* Offers section */
+.offer {
+    text-align: center;
+    padding: 50px;
+    background: black;
+}
+
+.offer h2 {
+    color: gold;
+    margin-bottom: 20px;
+}
+
+/* Contact */
+.contact-box {
+    text-align: center;
+    padding: 60px;
+}
+
+.contact-box h1 {
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 20px;
+    margin: 10px;
+}
