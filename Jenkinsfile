@@ -3,6 +3,7 @@ pipeline {
 
     tools {
         jdk 'java21'
+        maven 'maven3'
     }
 
     environment {
@@ -57,10 +58,10 @@ pipeline {
 
     post {
         success {
-            echo " Deployment Successful!"
+            echo "🚀 Deployment Successful!"
         }
         failure {
-            echo " Deployment Failed!"
+            echo "❌ Deployment Failed!"
         }
     }
 }
